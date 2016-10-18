@@ -1,0 +1,8 @@
+version: '2'
+services:
+  erd:
+    image: rkawajiri/erd
+    volumes:
+      - "./:/work"
+    entrypoint: erd
+    command: --help
