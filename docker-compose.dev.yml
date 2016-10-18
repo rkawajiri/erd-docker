@@ -1,0 +1,7 @@
+version: '2'
+services:
+  erd:
+    extends:
+      file: docker-compose.yml
+      service: erd
+    build: .
